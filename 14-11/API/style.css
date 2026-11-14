@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 8px;
+    background-color: lightblue;
+    width: 300px;
+    border-radius: 16px;
+    border: solid 1px rgb(12, 118, 153);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 20px;
+}
