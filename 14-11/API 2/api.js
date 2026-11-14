@@ -12,16 +12,7 @@ fetch("https://rickandmortyapi.com/api/character")
                 <img src="${character.image}" alt="Imagem do personagem"/>
                 <p> ${character.name} </p>
 
-            `;
-
-            container.appendChild(card)
-
-        });
-
-    })
-
-/*
-<div class="details-container">
+                <div class="details-container">
                     
                 <div class="details-personagem">
                     <span> ${character.species} </span>
@@ -36,4 +27,11 @@ fetch("https://rickandmortyapi.com/api/character")
                 </div>
                     
             </div>
-             */
+
+            `;
+
+            container.appendChild(card)
+
+        });
+
+    })
